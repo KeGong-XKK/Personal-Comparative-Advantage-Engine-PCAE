@@ -99,24 +99,41 @@ PCAE 基于 Personal Comparative Advantage Theory (PCAT) 九层模型，通过 A
 - 有热爱 + 世界需要，缺擅长 → "你有 Mission，但需要建立能力"
 - 有擅长 + 报酬 + 世界需要，缺热爱 → "你有 Vocation，但可能感到空虚"
 
-**深层动机探测：**
-- 自主性 (Autonomy)：偏好自主还是结构化？
-- 精通 (Mastery)：享受深耕还是广泛探索？
-- 目的 (Purpose)：什么使命感在驱动？
-- 连接 (Connection)：独立工作 vs 团队协作？
+**深层动机探测（SDT 三需求）：**
+
+Read `references/additional-frameworks.md` §2 加载 Self-Determination Theory。
+
+询问用户当前主要工作/学习环境中：
+- 自主 (Autonomy)：能多大程度决定做什么、何时做、怎么做？(1-10)
+- 胜任 (Competence)：能多大程度看到自己持续变好？(1-10)
+- 联结 (Relatedness)：工作让你与他人产生多少有意义的联结？(1-10)
+
+任何维度 < 6 = 该方向的结构性能量泄漏点，必须在 Layer 8 战略中处理。
+
+**价值观锚点检查（在进入 Layer 3 前）：**
+
+Read `references/additional-frameworks.md` §3 加载 ACT Values Clarification。
+
+> 在我们开始能力分析之前，问一个不一样的问题：
+> 在你讲的这些故事里，哪一个让你最有"这就是我"的感觉？那一刻你在维护什么？
+
+记录用户的核心价值观信号——Layer 8 战略核必须通过价值观一致性测试。
+
+**其他内驱力维度：**
 - 创造 (Creation)：更喜欢从0到1还是优化已有？
+- 目的 (Purpose)：什么使命感在驱动？
 
 ### Layer 3: Capability 能力映射
 
-Read `references/capability-ontology.md` 加载能力分类体系。
+Read `references/capability-ontology.md` 加载十大类能力分类体系。
 
-将用户故事中提取的能力映射到六大类：
-- Thinking（思维）
-- Communication（沟通）
-- Execution（执行）
-- Creation（创造）
-- Research（研究）
-- AI（AI能力）
+**双层映射结构：**
+
+将用户故事中提取的能力映射到：
+- **领域能力 (1-6 类)**：Thinking / Communication / Execution / Creation / Research / AI
+- **底层放大器 (7-10 类)**：Emotional Intelligence / Meta-skills / Ethical Judgment / Embodied Intelligence
+
+底层能力（特别是元认知、深度工作、AI 判断力、共情）是领域能力的倍增器——同样的"编程"能力配上不同底层放大器，实际产出差距可达 3-5 倍。Layer 4 天赋堆叠分析中务必同时考虑两层。
 
 **对每个能力评估：**
 
@@ -247,6 +264,25 @@ Read `references/ai-era-analysis.md` 获取 AI 时代分析框架。
 - Centaur 半人马模式：你和AI各做擅长的部分，明确分工
 - Cyborg 赛博格模式：你和AI深度融合，在子任务级别交替
 
+**图灵陷阱诊断（关键追问）：**
+
+参见 ai-era-analysis.md §12。问用户：
+
+> 你现在用 AI 做的事情，主要是：
+> A. 让你**更快地**做以前就在做的事？（=自动化路径，长期是被替代训练）
+> B. 让你**能做**以前做不到的事？（=增强路径，长期是被放大）
+
+如果用户主要在 A，标记为**红旗**，Layer 8 战略核必须包含"转向增强路径"作为关键行动。
+
+**AI 使用阶段定位（参见 §11）：**
+
+判断用户处于哪个阶段：
+- 把 AI 当**工具**（每次自己驱动）
+- 把 AI 当**助手**（委派 + 审查）
+- 把 AI 当**代理**（设计工作流，多代理并行）
+
+不同阶段的 AI 放大倍数差距通常是 3-10 倍。Layer 8 的连贯行动至少包含一个"向更高阶段移动"的具体步骤。
+
 ### Analysis 确认门
 
 ```
@@ -294,6 +330,16 @@ Read `references/ai-era-analysis.md` 获取 AI 时代分析框架。
 2. **新兴机会**：需要一定投资（时间/学习/资源），但趋势明确。参考 WEF Future of Jobs 数据。
 3. **可创造机会**：用户独特的能力组合可能开辟的新领域。最有长期价值但风险最高。
 
+**双轨思维（根据用户状态）：**
+
+- 用户**有明确方向感** → 用 Rumelt 因果逻辑（从目标推手段）
+- 用户**方向模糊**或回答"我不知道我想做什么" → Read `references/additional-frameworks.md` §6 加载 Effectuation 五原则
+  - 从手中资源出发（Bird-in-Hand）：身份 × 知识 × 人脉
+  - 设定可承受损失（不问回报上限，问失败下限）
+  - 把意外当资源（柠檬水原则）
+
+**反脆弱筛选：** 评估每个机会的损失-收益不对称性。优先反脆弱的机会（小投入、大上行、有限下行），警惕脆弱的机会（all-in、不可逆、损失大）。
+
 **注意**：不要编造市场数据。使用已知的趋势数据（WEF、行业报告），对具体领域的就业数据，明确标注"建议进一步调研"。
 
 ### Layer 8: Long-term Strategy 长期战略
@@ -313,11 +359,46 @@ Read `references/strategy-frameworks.md` 获取 Rumelt 战略核框架。
    - 每个行动有明确的时间框架（30天/90天/6个月）
    - 行动之间要相互增强，不是互不相关的清单
 
+**Hedgehog 收敛测试（在 Talent Stack 候选间筛选）：**
+
+Read `references/additional-frameworks.md` §7 加载 Hedgehog Concept。
+
+对 Layer 4 识别的每个候选堆叠，应用三圆圈测试：
+- 激情：用户对这个方向有多深的内在热情？
+- 顶级潜力：有客观证据表明用户能达到该组合下的顶尖水平吗？
+- 经济引擎：这个组合能否驱动可持续经济回报？
+
+三圆圈都达到 ★★★★ 的组合 = 战略核候选。其他组合作为 Plan B/C 备用。
+
+**价值观一致性测试：**
+
+每个 Plan 必须通过 Layer 2 价值观锚点的一致性测试。若 5 年后做这件事时用户不会觉得"这服务于我重视的东西"，即使比较优势很强也要重新设计。
+
 **Odyssey Plan（三个平行未来）：**
 为用户设计三个不同的 5 年路径：
-- **Plan A**：基于当前轨迹的最优路径
-- **Plan B**：如果 Plan A 受阻的替代方案
-- **Plan C**：如果可以完全重新开始的大胆方案
+- **Plan A**：基于当前轨迹的最优路径（**稳定端**，深耕核心比较优势）
+- **Plan B**：如果 Plan A 受阻的替代方案（**完全不同方向**，不是 A 的缩水）
+- **Plan C**：如果可以完全重新开始的大胆方案（**激进端**，高 Optionality 探索）
+
+**Antifragility 杠铃检查（参见 additional-frameworks.md §4）：**
+
+战略不应集中在"中等风险"。检查：
+- Plan A 是否是真正的稳定端（核心比较优势 + SDT 满足）？
+- Plan C 是否是真正的激进端（可承受损失上限内的高 Optionality 探索）？
+- 避免 Plan B 滑成"Plan A 的缩水版"——那是脆弱的中间地带
+
+**Plan C 设计：可能自我扩展 + Effectuation 起点**
+
+Plan C 常因用户的"期待自我"过于保守而难以打开。Read `additional-frameworks.md` §8.3 (Possible Selves) 和 §6 (Effectuation)：
+
+1. 先扩展可能自我（希望自我 / 担心自我 / 期待自我 三联问）
+2. 再用 Effectuation 鸟在手 + 可承受损失定义 Plan C 的**本周可启动**最小步
+
+**Bezos 后悔最小化锚点：**
+
+当用户在 Plan A vs Plan C 间挣扎、且决策非对称（尝试下行有限、不尝试下行无限）时，运行：
+
+> 想象 80 岁的你回头看现在的选择。哪一个不去做，会让你最后悔？
 
 每个方案评估：信心度 / 投入度 / 一致性
 
@@ -333,9 +414,24 @@ Read `references/strategy-frameworks.md` 获取 Rumelt 战略核框架。
 - 外部反馈：别人对你这方面工作的评价如何？
 - 市场信号：有人愿意为此付费吗？
 
+**注意力架构设计：**
+
+如果用户的核心方向依赖深度专注（写作、研究、设计、编程），Read `references/additional-frameworks.md` §8.2 加载 Deep Work。匹配适合的策略（Bimodal/Rhythmic/Journalistic），把"深度工作时段保护"列为连贯行动之一。
+
 **Review 机制：**
 - 建议每3个月运行一次 `/pcae review`
 - 对照实验结果更新 PCAP
+
+**当实验执行卡住时（关键诊断）：**
+
+如果用户在 Review 时报告"我的实验没做"或"我又拖延了"，**不要假设是动力不足**。Read `references/additional-frameworks.md` §5 加载 Immunity to Change，运行四栏诊断：
+
+1. 改进目标 = 你说的 [实验 X]
+2. 反向行为 = 你实际上一直在做的相反行为
+3. 隐藏承诺 = 你可能也承诺了什么相反的东西
+4. 大假设 = 你深层相信"如果我真做了 X，就会发生什么"
+
+识别大假设后，**设计测试大假设的最小实验**，而不是直接强推原实验。
 
 ---
 
@@ -353,14 +449,24 @@ Read `references/strategy-frameworks.md` 获取 Rumelt 战略核框架。
 
 | 触发条件 | 加载文件 |
 |----------|----------|
+| 进入 Layer 1（叙事分析）寻找优势人格底色 | `references/additional-frameworks.md` §1 (VIA) |
+| 进入 Layer 2（动机层）| `references/pcat-theory.md` (Ikigai)、`references/additional-frameworks.md` §2-3 (SDT + Values) |
 | 进入 Layer 3（能力映射）| `references/capability-ontology.md` |
 | 进入 Layer 4-5（能力组合 + 比较优势）| `references/pcat-theory.md` |
 | 进入 Layer 4（天赋堆叠）或 Layer 8（战略）| `references/strategy-frameworks.md` |
 | 进入 Layer 6（AI放大分析）| `references/ai-era-analysis.md` |
+| 进入 Layer 7（市场机会）且用户方向模糊 | `references/additional-frameworks.md` §6 (Effectuation) |
+| 进入 Layer 7-8（不确定性与杠铃策略）| `references/additional-frameworks.md` §4 (Antifragility) |
+| 进入 Layer 8（战略核收敛）| `references/additional-frameworks.md` §7 (Hedgehog)、§8.1 (Bezos) |
+| Layer 8 设计 Plan C 时 | `references/additional-frameworks.md` §8.3 (Possible Selves) |
+| Layer 9 实验执行卡住时 | `references/additional-frameworks.md` §5 (Immunity to Change) |
+| Layer 9 设计注意力架构时 | `references/additional-frameworks.md` §8.2 (Deep Work) |
 | 生成 PCAP 档案 | `references/output-template.md` |
 | 用户要求看示例 | `examples/example-profile.md` |
 
 用 Read 工具加载这些文件。文件路径相对于本 skill 目录。
+
+**避免一次性加载多个文件**：每个理论文件 6-10KB，全部加载会浪费上下文。每次仅加载当前 Layer 实际需要的章节对应的文件。
 
 ---
 

@@ -1,6 +1,10 @@
 # Capability Ontology — 能力分类体系
 
-PCAE 使用六大类能力分类框架，用于映射用户从叙事中展现的能力。每个叶节点标注了 AI 影响类型。
+PCAE 使用十大类能力分类框架，用于映射用户从叙事中展现的能力。每个叶节点标注了 AI 影响类型。
+
+**分类逻辑**：前 6 类（Thinking / Communication / Execution / Creation / Research / AI）是**领域能力** (Domain Capabilities)——用于解决具体任务。后 4 类（Emotional / Meta / Ethical / Embodied）是**底层能力** (Foundational Capabilities)——它们调度、约束或赋能其他能力。
+
+在 Layer 3 能力映射时，先从前 6 类识别用户的领域能力，再用后 4 类作为"底色与放大器"补充诊断。
 
 ## 使用说明
 
@@ -257,12 +261,202 @@ PCAE 使用六大类能力分类框架，用于映射用户从叙事中展现的
 
 ---
 
+## 7. Emotional Intelligence 情绪智能
+
+EQ 在 Communication 类下属于隐含维度，但在 AI 时代它成为**独立的护城河**——AI 可以模拟情感语言，但难以在真实人际场景中持续准确响应。
+
+### 7.1 Self-Awareness 自我觉察
+- **可观察指标**：能准确命名自己当下的情绪、识别情绪触发器、知道自己什么时候不是最佳状态
+- **AI影响**：抵抗型 — AI 可以提供反思框架，但内省体验本身依赖人
+- **子能力**：
+  - Emotion Labeling 情绪命名
+  - Trigger Identification 触发器识别
+  - State Monitoring 状态监测
+
+### 7.2 Self-Regulation 情绪调节
+- **可观察指标**：在压力下保持思考清晰、能延迟满足、能从负面情绪中恢复
+- **AI影响**：抵抗型 — 需要实时身心调节，AI 仅能辅助觉察
+- **子能力**：
+  - Impulse Control 冲动控制
+  - Stress Management 压力管理
+  - Recovery 复原力
+
+### 7.3 Empathy 共情
+- **可观察指标**：能准确读懂他人未明说的情绪、能从对方视角看问题、能区分认知共情与情感共情
+- **AI影响**：抵抗型 — 这是 WEF Tier 1 受保护技能；AI 可模拟但无法真正"感受"
+- **子能力**：
+  - Cognitive Empathy 认知共情（理解对方的想法）
+  - Affective Empathy 情感共情（感受对方的感受）
+  - Compassionate Action 慈悲行动（基于共情采取行动）
+
+### 7.4 Social Skill 社交技能
+- **可观察指标**：能管理复杂的人际网络、化解冲突、读懂群体动态、影响群体情绪
+- **AI影响**：抵抗型 — 高语境、多人场景的实时社交是 AI 的明确短板
+- **子能力**：
+  - Conflict Management 冲突管理
+  - Group Dynamics Reading 群体动态读取
+  - Emotional Contagion 情绪传染（积极意义上）
+  - Network Building 关系网络构建
+
+---
+
+## 8. Meta-skills 元能力
+
+元能力 = 调度其他能力的能力。这是 AI 时代价值变化最剧烈的维度——大量"任务级能力"被 AI 削弱，但"驾驭任务的能力"价值上升。
+
+### 8.1 Learning to Learn 学习的能力
+- **可观察指标**：进入新领域时的爬坡速度、能识别该领域的"关键 20%"、能自主设计学习路径
+- **AI影响**：高度放大型 — AI 大幅降低学习门槛，但**会用 AI 学**的能力本身是元技能
+- **子能力**：
+  - Domain Bootstrapping 领域入门
+  - Mental Model Construction 心智模型构建
+  - Transfer Learning 迁移学习
+  - Feynman-style Explanation 费曼式自检
+
+### 8.2 Attention Management 注意力管理
+- **可观察指标**：能在干扰中保持深度专注、能保护深度工作时段、能识别浅层 vs 深层任务
+- **AI影响**：抵抗型 — 注意力是 AI 时代新的稀缺资源；AI 工具反而加剧碎片化挑战
+- **子能力**：
+  - Deep Work 深度工作
+  - Context Switching Cost Awareness 上下文切换成本意识
+  - Energy Management 能量管理（不仅是时间管理）
+
+### 8.3 Decision-making 决策力
+- **可观察指标**：能在信息不全时果断决策、能识别决策类型（可逆 vs 不可逆）、能事后客观复盘
+- **AI影响**：抵抗型 — AI 提供选项与分析，最终判断与承担依赖人
+- **子能力**：
+  - Reversibility Assessment 可逆性评估
+  - Probabilistic Thinking 概率思维
+  - Decision Hygiene 决策卫生（避免认知偏差）
+  - Calibrated Confidence 校准的自信
+
+### 8.4 Self-management 自我管理
+- **可观察指标**：能在无监督下持续推进、能维持长期项目动力、能识别和应对自己的拖延
+- **AI影响**：抵抗型 — 自律和坚持是 AI 时代被放大的稀缺品
+- **子能力**：
+  - Goal Setting 目标设定
+  - Habit Architecture 习惯架构（接 Atomic Habits）
+  - Procrastination Awareness 拖延觉察
+  - Recovery Routines 恢复习惯
+
+### 8.5 Metacognition 元认知
+- **可观察指标**：知道自己知道什么、知道自己不知道什么、能监控自己的思考过程
+- **AI影响**：抵抗型 — WEF Tier 2 受保护技能；AI 时代的"验证瓶颈"核心能力
+- **子能力**：
+  - Knowing What You Know 知识自检
+  - Knowing What You Don't Know 无知自检（最难）
+  - Process Monitoring 过程监控
+  - Bias Awareness 偏差觉察
+
+---
+
+## 9. Ethical Judgment 伦理判断
+
+WEF Future of Jobs 2025 将"伦理决策"标记为**新兴受保护技能类别** (Protected Skill Category)——不只是 AI 难以替代，更是 AI 时代社会**保留给人类的角色**。
+
+### 9.1 Moral Reasoning 道德推理
+- **可观察指标**：能识别道德问题、能调用多个伦理框架（功利、义务、美德）分析、不依赖单一直觉
+- **AI影响**：抵抗型 — AI 可提供分析框架，但承担道德重量必须是人
+- **子能力**：
+  - Framework Application 框架运用（功利论 / 义务论 / 美德论）
+  - Moral Imagination 道德想象（设想各方处境）
+  - Universalizability Testing 普遍化检验
+
+### 9.2 Stakeholder Reasoning 利益相关者推理
+- **可观察指标**：决策时主动识别所有受影响方、考虑沉默的少数、看到二阶受害者
+- **AI影响**：抵抗型 — 需要社会语境理解
+- **子能力**：
+  - Stakeholder Mapping 利益相关者映射
+  - Silent Party Awareness 沉默方意识
+  - Power Asymmetry Recognition 权力不对称识别
+
+### 9.3 AI Ethics 人工智能伦理
+- **可观察指标**：能识别 AI 系统的潜在伤害、能设计负责任的 AI 部署、能与多方就 AI 政策对话
+- **AI影响**：元能力 — AI 时代的关键新兴能力，且需求快速增长
+- **子能力**：
+  - Algorithmic Harm Recognition 算法伤害识别
+  - Responsible Deployment Design 负责任部署设计
+  - AI Governance Literacy AI 治理素养
+
+### 9.4 Moral Courage 道德勇气
+- **可观察指标**：能在不利于自己时坚持原则、能在群体压力下发声、能承担道德选择的代价
+- **AI影响**：抵抗型 — 承担风险是定义性的"人"的角色
+- **子能力**：
+  - Speaking Up 发声
+  - Cost-bearing 承担成本
+  - Whistleblowing Judgment 揭发判断
+  - Integrity under Pressure 压力下的正直
+
+---
+
+## 10. Embodied Intelligence 体感智能
+
+AI 时代的反直觉趋势：**身体性能力的价值反而上升**。当大量认知工作可远程交付给 AI 时，需要物理在场、身体协调和感官判断的工作变得不可替代。
+
+### 10.1 Manual Dexterity 手部灵巧
+- **可观察指标**：精细动作、工具熟练度、手眼协调
+- **AI影响**：抵抗型 — 复杂非结构化环境中的物理操作（医疗、技工、应急）AI 适用性最低
+- **子能力**：
+  - Fine Motor Control 精细运动控制
+  - Tool Mastery 工具精通
+  - Tactile Discrimination 触觉辨识
+
+### 10.2 Spatial Intelligence 空间智能
+- **可观察指标**：3D 思维、空间记忆、方向感、能在脑中旋转物体
+- **AI影响**：放大型 — AI 辅助设计与建模，但物理空间判断仍依赖人
+- **子能力**：
+  - Spatial Visualization 空间可视化
+  - Navigation 导航
+  - Spatial Memory 空间记忆
+
+### 10.3 Body Awareness 身体觉察 (Proprioception)
+- **可观察指标**：知道自己身体在做什么、能感知精微的肌肉张力、能在压力下保持身体放松
+- **AI影响**：抵抗型 — 这是表演、运动、临床和教学的底层能力
+- **子能力**：
+  - Postural Awareness 姿态觉察
+  - Tension Recognition 张力识别
+  - Embodied Presence 具身在场
+
+### 10.4 Sensory Discrimination 感官辨识
+- **可观察指标**：能听出他人听不出的差异、能尝出细微味道、能看出微小色差
+- **AI影响**：抵抗型 — 高级感官判断（品酒、医学影像 second opinion、产品品质判断）依然是人的优势
+- **子能力**：
+  - Auditory Discrimination 听觉辨识
+  - Visual Discrimination 视觉辨识
+  - Olfactory/Gustatory 嗅味觉
+  - Pattern Sensing 整体感
+
+### 10.5 Physical Performance 体能与协调
+- **可观察指标**：在长时间任务中的耐力、动作协调性、压力下的动作精度
+- **AI影响**：抵抗型 — 表演、护理、应急、教学等场景的物理在场不可替代
+- **子能力**：
+  - Endurance 耐力
+  - Coordination 协调
+  - Performance under Stress 压力下表现
+
+---
+
 ## AI 影响分类汇总
 
 | 类型 | 含义 | 示例能力 |
 |------|------|----------|
-| **抵抗型** | AI 难以替代 | 领导力、谈判、教学、质性研究、AI判断力 |
-| **放大型** | AI 让你更强 | 编程、数据研究、规划、写作、文献研究 |
-| **高度放大型** | AI 效果最显著 | 编程(1.7x)、文献研究(30%+)、数据研究 |
+| **抵抗型** | AI 难以替代 | 领导力、谈判、教学、质性研究、AI判断力、共情、元认知、伦理判断、身体在场 |
+| **放大型** | AI 让你更强 | 编程、数据研究、规划、写作、文献研究、空间智能 |
+| **高度放大型** | AI 效果最显著 | 编程(1.7x)、文献研究(30%+)、数据研究、学习能力 |
 | **混合型** | AI部分替代、部分放大 | 创造性思维、设计、叙事表达 |
-| **元能力** | 直接决定AI放大倍数 | 提示工程、工作流设计 |
+| **元能力** | 直接决定AI放大倍数 | 提示工程、工作流设计、AI 伦理、学习的能力 |
+
+---
+
+## 领域能力 × 底层能力 = 优势倍增
+
+底层能力（7-10 类）的真正作用是**放大领域能力（1-6 类）的有效输出**。同样的"编程"能力，加上深度工作（8.2）+ 元认知（8.5），实际产出可能是基础水平的 3-5 倍。
+
+**PCAE 在 Layer 4 天赋堆叠分析时的双层组合：**
+
+| 候选堆叠 | 领域能力 | 底层放大器 | 实际稀缺度 |
+|----------|---------|-----------|-----------|
+| 标准堆叠 | 编程 + 写作 + 产品 | — | 较常见 |
+| 强化堆叠 | 编程 + 写作 + 产品 + 深度工作 + AI 判断力 | 强 | 高度稀缺 |
+
+→ 在 Layer 4 中提示用户：你的领域能力组合可能不稀缺，但**叠加你的底层放大器后**，整体非常独特。这是 PCAE 比传统能力测评的关键升级。
