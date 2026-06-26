@@ -8,7 +8,7 @@
 
 <a name="中文"></a>
 
-## 这是什么？
+## 项目简介
 
 PCAE 是一个基于 **Personal Comparative Advantage Theory (PCAT)** 的 Skill。它通过结构化的对话，帮助你发现自己的独特优势——不是简单告诉你"你适合当什么"，而是深入分析：
 
