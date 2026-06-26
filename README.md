@@ -1,6 +1,6 @@
 # PCAE — Personal Comparative Advantage Engine
 
-**帮助你在 AI 时代发现个人比较优势的 Claude Code Skill**
+**本项目是一个帮助你在 AI 时代发现个人比较优势的 Skill**
 
 [English](#english) | [中文](#中文)
 
@@ -10,7 +10,7 @@
 
 ## 这是什么？
 
-PCAE 是一个基于 **Personal Comparative Advantage Theory (PCAT)** 的 Claude Code Skill。它通过结构化的对话，帮助你发现自己的独特优势——不是简单告诉你"你适合当什么"，而是深入分析：
+PCAE 是一个基于 **Personal Comparative Advantage Theory (PCAT)** 的 Skill。它通过结构化的对话，帮助你发现自己的独特优势——不是简单告诉你"你适合当什么"，而是深入分析：
 
 - 你的人生故事中隐藏了什么能力模式？
 - 你的独特能力组合（天赋堆叠）是什么？
