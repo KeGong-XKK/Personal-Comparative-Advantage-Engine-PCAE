@@ -122,7 +122,7 @@ PCAE 整合了多个学科的理论：
 
 ## 输出
 
-完成分析后，PCAE 会生成一份 **Personal Comparative Advantage Profile (PCAP)**，包含能力版图、天赋堆叠、比较优势排序、AI影响地图、战略核和行动计划。查看 [示例档案](examples/example-profile.md)。
+完成分析后，PCAE 会生成一份 **Personal Comparative Advantage Profile (PCAP)**，包含能力版图、天赋堆叠、比较优势排序、AI影响、战略核和行动计划。查看 [示例档案](examples/example-profile.md)。
 
 ## 许可
 
