@@ -22,10 +22,10 @@ PCAE 是一个基于 **Personal Comparative Advantage Theory (PCAT)** 的 Claude
 
 ```bash
 # 方式一：克隆到 Claude Code 技能目录
-git clone https://github.com/YOUR_USERNAME/pcae.git ~/.claude/skills/pcae
+git clone https://github.com/KeGong-XKK/Personal-Comparative-Advantage-Engine-PCAE.git ~/.claude/skills/pcae
 
 # 方式二：使用 gh skill 命令（需要 GitHub CLI v2.90+）
-gh skill install YOUR_USERNAME/pcae --agent claude-code
+gh skill install KeGong-XKK/Personal-Comparative-Advantage-Engine-PCAE --agent claude-code
 ```
 
 ## 使用
@@ -101,10 +101,10 @@ PCAE is a Claude Code Skill based on **Personal Comparative Advantage Theory (PC
 
 ```bash
 # Option 1: Clone to Claude Code skills directory
-git clone https://github.com/YOUR_USERNAME/pcae.git ~/.claude/skills/pcae
+git clone https://github.com/KeGong-XKK/Personal-Comparative-Advantage-Engine-PCAE.git ~/.claude/skills/pcae
 
 # Option 2: Using gh skill command (requires GitHub CLI v2.90+)
-gh skill install YOUR_USERNAME/pcae --agent claude-code
+gh skill install KeGong-XKK/Personal-Comparative-Advantage-Engine-PCAE --agent claude-code
 ```
 
 ## Usage
